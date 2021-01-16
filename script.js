@@ -14,5 +14,10 @@ function setup() {
 // Runs in a loop forever
 function draw() {
   background(200)
-  ellipse(200, 200, 20)
+
+  
+  // Draw a rectangle with rounded corners, each having a radius of 20.
+  rect(80, 100, 100, 200, 10);
+  ellipse(200, 200, 50) // draw an ellipse
 }
+
