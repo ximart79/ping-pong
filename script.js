@@ -14,4 +14,5 @@ function setup() {
 // Runs in a loop forever
 function draw() {
   background(200)
+  ellipse(200, 200, 20)
 }
